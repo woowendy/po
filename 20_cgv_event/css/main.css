@@ -1,0 +1,38 @@
+* { cursor: none !important; }
+
+body { background-color: #0011ff; font-family: 'Noto Sans KR', sans-serif; }
+
+h1 { font-size: 48px; font-weight: 500; color: #fff; text-align: center; margin-top: 100px; text-transform: uppercase; }
+
+h3 { font-size: 24px; font-weight: 500; color: #fff; text-align: center; margin-top: 50px; line-height: 1.5; }
+
+#main { width: 80%; margin: 100px auto; }
+
+#main ul:after { content: ''; display: block; clear: both; }
+
+#main ul li { width: calc(25% - 10px); margin: 10px 5px; float: left; }
+
+#main ul li a { text-decoration: none; color: #fe4c03; padding: 10px; display: block; background-color: #fff; }
+
+#main ul li a .imgBox img { overflow: hidden; }
+
+#main ul li a img { width: 100%; }
+
+#main ul li .desc { padding: 10px; }
+
+#main ul li .desc h2 { font-size: 24px; font-weight: 700; margin-bottom: 10px; }
+
+@media screen and (max-width: 639px) { #main ul li .desc h2 { font-size: 16px; font-weight: 500; }
+  #main ul li .desc p { font-size: 12px; } }
+
+#main ul li p { line-height: 1.5; }
+
+.filter { margin-top: 100px; text-align: center; }
+
+.filter li { display: inline-block; background-color: #ffca02; color: #fff; width: 150px; height: 40px; line-height: 40px; border-radius: 100px; margin: 10px 5px; text-transform: uppercase; -webkit-transition: background-color 0.25s; transition: background-color 0.25s; cursor: pointer; -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1); box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1); }
+
+.filter li.on { background-color: #fe4c03; }
+
+.cursor { width: 20px; height: 20px; background-color: #fff; border-radius: 100%; -webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1); box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1); -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); position: fixed; z-index: 9999; left: 0; top: 0; pointer-events: none; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; mix-blend-mode: difference; }
+
+.cursor.on { background: url("../images/bgCursor.png") no-repeat 50% #fff; background-size: 50%; mix-blend-mode: difference; }

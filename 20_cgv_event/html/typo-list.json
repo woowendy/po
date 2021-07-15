@@ -1,0 +1,188 @@
+{
+    "list":[
+        {
+            "imgsrc":"../images/01.jpg",
+            "title":"Arthouse dedicate",
+            "eventsrc":"http://ccaomei.dothome.co.kr/CGV/event/1810m_arthouse_dedicate_tab1.html",
+            "target":"_blank",
+            "desc":"Popup + tab + Script ",
+            "type":"2018"
+        },
+        {
+            "imgsrc":"../images/02.jpg",
+            "title":"Couple Click",
+            "eventsrc":"http://ccaomei.dothome.co.kr/CGV/event/1806m_couple_click_tab1.html",
+            "target":"_blank",
+            "desc":"Click event + Script",
+            "type":"2018"
+        },
+        {
+            "imgsrc":"../images/03.jpg",
+            "title":"Summer stamp",
+            "eventsrc":"http://ccaomei.dothome.co.kr/CGV/event/1807m_summer_stamp.html",
+            "target":"_blank",
+            "desc":"Stamp event + Script",
+            "type":"2018"
+        },
+        {
+            "imgsrc":"../images/04.jpg",
+            "title":"Movie Quiz",
+            "eventsrc":"http://ccaomei.dothome.co.kr/CGV/event/1808m_movie_quiz.html",
+            "target":"_blank",
+            "desc":"Game Event + Scipt",
+            "type":"2018"
+        },
+        {
+            "imgsrc":"../images/05.jpg",
+            "title":"Hanguel",
+            "eventsrc":"http://ccaomei.dothome.co.kr/CGV/event/1809m_hangul_tab1.html",
+            "target":"_blank",
+            "desc":"Popup + Script",
+            "type":"2018"
+        },
+        {
+            "imgsrc":"../images/06.jpg",
+            "title":"Last year",
+            "eventsrc":"http://ccaomei.dothome.co.kr/CGV/event/1811m_last_year.html",
+            "target":"_blank",
+            "desc":"Script + tab ",
+            "type":"2018"
+        },
+        {
+            "imgsrc":"../images/07.jpg",
+            "title":"Golden egg",
+            "eventsrc":"http://ccaomei.dothome.co.kr/CGV/event/1812m_golden_egg.html",
+            "target":"_blank",
+            "desc":"Slick + script",
+            "type":"2018"
+        },
+        {
+            "imgsrc":"../images/08.jpg",
+            "title":"Movie holiday",
+            "eventsrc":"http://ccaomei.dothome.co.kr/CGV/event/1902m_movie_holiday.html",
+            "target":"_blank",
+            "desc":"Roulette + Script",
+            "type":"2019"
+        },
+        {
+            "imgsrc":"../images/09.jpg",
+            "title":"Paconi Event",
+            "eventsrc":"http://ccaomei.dothome.co.kr/CGV/event/1902m_paconnie_quiz.html",
+            "target":"_blank",
+            "desc":"Quiz + Swiper + Script",
+            "type":"2019"
+        },
+        {
+            "imgsrc":"../images/10.jpg",
+            "title":"Month CGV",
+            "eventsrc":"http://ccaomei.dothome.co.kr/CGV/event/1903m_month_cgv.html",
+            "target":"_blank",
+            "desc":"Swiper + Script",
+            "type":"2019"
+        },
+        {
+            "imgsrc":"../images/11.jpg",
+            "title":"Cherry Blossom Stamp",
+            "eventsrc":"http://ccaomei.dothome.co.kr/CGV/event/1904m_cb_stamp_ver3.html",
+            "target":"_blank",
+            "desc":"[개인작업] 벚꽃 내려오는 효과",
+            "type":"2019"
+        },
+        {
+            "imgsrc":"../images/12.jpg",
+            "title":"Art house",
+            "eventsrc":"http://ccaomei.dothome.co.kr/CGV/event/1906m_arthouse_av_tab1.html",
+            "target":"_blank",
+            "desc":"이벤트 구매 + 주소찾기",
+            "type":"2019"
+        },
+        {
+            "imgsrc":"../images/13.jpg",
+            "title":"CGV Break",
+            "eventsrc":"http://ccaomei.dothome.co.kr/CGV/event/1906m_cgv_break_ver2.html",
+            "target":"_blank",
+            "desc":"Tab + Swiper",
+            "type":"2019"
+        },
+        {
+            "imgsrc":"../images/14.jpg",
+            "title":"Spiderman Stamp",
+            "eventsrc":"http://ccaomei.dothome.co.kr/CGV/event/1906m_spiderman_stamp.html",
+            "target":"_blank",
+            "desc":"animation + 플로팅 로그인",
+            "type":"2019"
+        },
+        {
+            "imgsrc":"../images/15.jpg",
+            "title":"Art house diary",
+            "eventsrc":"http://ccaomei.dothome.co.kr/CGV/event/1910m_arthouse_diary_ver2.html",
+            "target":"_blank",
+            "desc":"다이어리 구매 + slide",
+            "type":"2019"
+        },
+        {
+            "imgsrc":"../images/16.jpg",
+            "title":"Golden egg",
+            "eventsrc":"http://ccaomei.dothome.co.kr/CGV/event/1912m_golden_egg_ver2.html",
+            "target":"_blank",
+            "desc":"[개인작업] 눈내리는 효과 만들기",
+            "type":"2019"
+        },
+        {
+            "imgsrc":"../images/17.jpg",
+            "title":"Speed Coupon",
+            "eventsrc":"http://ccaomei.dothome.co.kr/CGV/event/1909m_cgv_manual_ver3_me.html",
+            "target":"_blank",
+            "desc":"Swiper + slide",
+            "type":"2020"
+        },
+        {
+            "imgsrc":"../images/18.jpg",
+            "title":"New year",
+            "eventsrc":"http://ccaomei.dothome.co.kr/CGV/event/2001m_new_year.html",
+            "target":"_blank",
+            "desc":"윷놀이 게임이벤트",
+            "type":"2020"
+        },
+        {
+            "imgsrc":"../images/19.jpg",
+            "title":"1318 Open Page",
+            "eventsrc":"http://ccaomei.dothome.co.kr/CGV/event/2002m_1318_open.html",
+            "target":"_blank",
+            "desc":"animation",
+            "type":"2020"
+        },
+        {
+            "imgsrc":"../images/20.jpg",
+            "title":"Gg open",
+            "eventsrc":"http://ccaomei.dothome.co.kr/CGV/event/2002m_gg_open.html",
+            "target":"_blank",
+            "desc":"[개인작업] 폭죽 효과 나오게하기",
+            "type":"2020"
+        },
+        {
+            "imgsrc":"../images/21.jpg",
+            "title":"Imax Poster",
+            "eventsrc":"http://ccaomei.dothome.co.kr/CGV/event/2002m_imax_goods_result_ver2.html",
+            "target":"_blank",
+            "desc":"별 효과 + 결과발표 페이지 + 주소찾기",
+            "type":"2020"
+        },
+        {
+            "imgsrc":"../images/22.jpg",
+            "title":"Movie challenge",
+            "eventsrc":"http://ccaomei.dothome.co.kr/CGV/event/2002m_movie_challenge_ver2.html",
+            "target":"_blank",
+            "desc":"[개인작업] 하트올라오는 효과",
+            "type":"2020"
+        },
+        {
+            "imgsrc":"../images/23.jpg",
+            "title":"Kids Family",
+            "eventsrc":"http://ccaomei.dothome.co.kr/CGV/event/2003m_kids_family_open_tab1.html",
+            "target":"_blank",
+            "desc":"Roulette Event",
+            "type":"2020"
+        }
+    ]
+}
