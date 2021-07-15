@@ -1,0 +1,58 @@
+{
+    "list": [
+        {
+            "imgsrc":"images/jj/event/01.jpg",
+            "title":"제주시 연남동",
+            "desc":"제주시 연남동 OPEN",
+            "type":"Yeonnam"
+        },
+        {
+            "imgsrc":"images/jj/event/02.jpg",
+            "title":"제주시 연남동",
+            "desc":"제주시 연남동 OPEN",
+            "type":"Yeonnam"
+        },
+        {
+            "imgsrc":"images/jj/event/03.jpg",
+            "title":"제주시 연남동",
+            "desc":"제주시 연남동 OPEN",
+            "type":"Yeonnam"
+        },
+        {
+            "imgsrc":"images/jj/event/04.jpg",
+            "title":"innisfree",
+            "desc":"innisfree X 제주맥주",
+            "type":"innisfree"
+        },
+        {
+            "imgsrc":"images/jj/event/05.jpg",
+            "title":"innisfree",
+            "desc":"innisfree X 제주맥주",
+            "type":"innisfree"
+        },
+        {
+            "imgsrc":"images/jj/event/06.jpg",
+            "title":"innisfree",
+            "desc":"innisfree X 제주맥주",
+            "type":"innisfree"
+        },
+        {
+            "imgsrc":"images/jj/event/07.jpg",
+            "title":"MOBETTERWORK",
+            "desc":"MOBETTERWORK X JEJUBEER",
+            "type":"dnc"
+        },
+        {
+            "imgsrc":"images/jj/event/08.jpg",
+            "title":"MOBETTERWORK",
+            "desc":"MOBETTERWORK X JEJUBEER",
+            "type":"dnc"
+        },
+        {
+            "imgsrc":"images/jj/event/09.jpg",
+            "title":"MOBETTERWORK",
+            "desc":"MOBETTERWORK X JEJUBEER",
+            "type":"dnc"
+        }        
+    ]
+}
