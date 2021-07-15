@@ -1,0 +1,518 @@
+legend{ position: absolute; left: -999em; } 
+fieldset{ border: none; } 
+
+/* popup */
+/*
+.popup{ width: 322px; height: 322px; position: absolute; left:15%; top:15%; z-index: 10000; animation:ani01; animation-duration:2.0s; animation-name:ani01; animation-iteration-count:infinite;}
+
+@keyframes ani01{
+    from{transform:translateY(0);}
+    50%{transform:translateY(10px);}
+    to{transform:translateY(0px);}			  
+}
+
+.pTop{ width: 100%; height: 322px; background-image: url(../images/main/popup.png); box-sizing: border-box; }
+.pBottom{ width: 100%; height: 40px; background-color: transparent; padding-right: 20px; box-sizing: border-box; }
+.pBottom form{ width: 100%; height: 30px; text-align: right; line-height: 30px; font-size: 13px;}
+.popup_inner {text-align: center; outline: none; width:100%;}
+.pBottom label{ color: #fff; }
+.pBottom a{ color: #fff; font-weight: bold;}
+*/
+
+
+.section {
+    height:100vh;
+    color:#fff;
+    background-size: cover;
+    background-position: 50%;
+}
+.titleBox {
+    text-align: center;
+}
+.titleBox h2 {
+    font-size: 24px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+.titleBox h2 .whitespace {
+    margin: 0 0;
+}
+.titleBox p {
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 300;
+}
+.titleBox p strong {
+    font-weight: 700;
+}
+
+.titleBox.m h2 {
+    font-size: 24px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    color:orange;
+}
+.titleBox.m h2 .whitespace {
+    margin: 0 0;
+}
+.titleBox.m p {
+    margin-bottom:-20px;
+    font-size: 24px;
+    line-height: 1.4;
+    font-weight: 300;
+    color:mediumpurple;
+}
+
+.titleBox.d h2 {
+    font-size: 24px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    color:#fff;
+}
+.titleBox.d h2 .whitespace {
+    margin: 0 0;
+}
+.titleBox.d p {
+    margin-bottom:-20px;
+    font-size: 24px;
+    line-height: 1.4;
+    font-weight: 300;
+    color:#f26b5b;
+}
+
+
+#happen {
+     background-image: url("../images/main/main_bg1.jpg"); 
+}
+#business {
+    background-image: url("../images/main/main_bg2.jpg");
+}
+#portfolio {
+    background-image: url("../images/main/main_bg3.jpg");
+}
+#community {
+    background-image: url("../images/main/main_bg4.jpg");
+}
+#footer {
+    background:#f59500;
+    color:#333;
+    text-align: center;
+    padding:50px 0;
+    line-height: 1.8;
+}
+#footer dt {
+    display: inline;
+    margin-left: 10px;
+}
+#footer dt:before {
+    content: '/';
+    display: inline;
+    margin: 0 20px 0 0;
+}
+#footer dt:nth-of-type(1):before {
+    display: none;
+}
+#footer dt:after {
+    content: ':';
+    display: inline;
+    margin: 0 5px;
+}
+#footer dd {
+    display: inline;
+}
+#footer .newline:before {
+    content: '\A';
+    display: inline;
+    white-space: pre;
+}
+
+.bgVideo{position:absolute;top:50%;left:50%;z-index:1;min-width:100%;min-height:100%;width:auto;height:auto;transform:translate(-50%,-50%);}
+
+.iconList {
+    text-align: center;
+    font-size: 0;
+    color:#fff;
+    margin-top: 100px;
+}
+.iconList li {
+    display: inline-block;
+    width:300px;
+    font-size: 16px;
+    vertical-align: top;
+}
+.iconList li .icon {
+    width:130px;
+    height: 130px;
+    margin: auto;
+    border-radius: 100px;
+    background-color: rgba(255,255,255,0.25);
+    transition: all 0.25s;
+    position: relative;
+}
+.iconList li:hover .icon {
+    background-color: rgba(255,255,255,0.8);
+    border:3px solid;
+}
+
+.iconList li:hover .icon.icon1 {
+    background-color: rgba(255,176,37,0.3);
+    border:3px solid #ffb025
+}
+
+.iconList li:hover .icon.icon2 {
+    background-color: rgba(19,129,84,0.3);
+    border:3px solid #138154
+}
+
+.iconList li:hover .icon.icon3 {
+    background-color: rgba(204,51,51,0.3);
+    border:3px solid #003399
+}
+
+
+.iconList li .icon img {
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+.iconList li dt {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+.iconList li dd {
+    margin: auto;
+    line-height: 1.5;
+    font-size: 14px;
+    padding: 0 30px;
+    word-break: keep-all;
+}
+.portfolioList {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 0;
+}
+.portfolioList li {
+    display: inline-block;
+    width:400px;
+    margin: 0 20px;
+}
+.portfolioList li p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+.portfolioList li img {
+    width:100%; transition: all 0.4s;
+}
+
+.portfolioList li img:hover {
+    border:5px solid #f26b5b;
+}
+
+.anchorList {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 0;
+}
+.anchorList li {
+    display: inline-block;
+    width:200px;    height: 50px;
+    line-height: 50px;    margin: 0 10px;
+    font-size: 16px;
+    border: 2px solid #fff;
+    transition: background-color 0.25s,color 0.25s;
+}
+.anchorList li:hover {
+    background-color: #fff;
+    color: #f59500;
+}
+.anchorList li a {
+    display: block;
+}
+
+/* navigation
+#fp-nav ul li
+ {
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    position:relative;
+}
+
+#fp-nav ul li a span {
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    height: 4px;
+    width: 4px;
+    border: 0;
+    background: #fff;
+    left: 50%;
+    top: 50%;
+    margin: -2px 0 0 -2px;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+#fp-nav ul li:hover a span{
+    width: 4px;
+    height: 4px;
+    margin: -2px 0px 0px -2px;
+}
+
+#fp-nav ul li a span:before{
+    content: '';
+    display: block;
+    width:30px;
+    height: 30px;
+    border: 2px solid #fff;
+    border-radius: 100px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%) scale(0);
+    transition: all 0.25s;
+}
+#fp-nav ul li a.active span:before{
+    transform: translate(-50%,-50%) scale(1);
+}
+
+#fp-nav ul li a.active span,
+#fp-nav ul li:hover a.active span
+{
+    height: 4px;
+    width: 4px;
+    margin: -2px 0 0 -2px;
+    border-radius: 100%;
+ }
+
+ #fp-nav ul li .fp-tooltip {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 14px;
+    font-family: "Noto Sans KR","맑은 고딕","돋움",sans-serif;
+    white-space: nowrap;
+    max-width: 220px;
+    overflow: visible;
+    display: block;
+    opacity: 0.2;
+    width: auto;
+    cursor: pointer;
+}
+
+#fp-nav ul li .fp-tooltip.fp-right {
+    right: 60px;
+}
+#fp-nav ul li:last-child {
+    display: none;
+}
+
+#fp-nav {
+    transition: all 0.5s;
+    transition-delay: 0.5s;
+}
+
+body.last #fp-nav {
+    right:-160px;
+}
+
+/* fullpage custom */
+/* #fp-nav ul li {
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    position:relative;
+}
+
+#fp-nav ul li a.active span:before {
+    content: '';
+    display: block;
+    width:30px;
+    height: 30px;
+    border: 2px solid #fff;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    border-radius:100%;
+}
+#fp-nav ul li a span {
+    opacity: 0.5;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    height: 4px;
+    width: 4px;
+    border: 0;
+    background: #fff;
+    left: 50%;
+    top: 50%;
+    margin: -2px 0 0 -2px;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+#fp-nav ul li:hover a span{
+    width: 4px;
+    height: 4px;
+    margin: -2px 0px 0px -2px;
+}
+
+#fp-nav ul li .fp-tooltip {
+    position: absolute;
+    top: 14px;
+    color: #fff;
+    font-size: 14px;
+    font-family: arial, helvetica, sans-serif;
+    white-space: nowrap;
+    max-width: 220px;
+    display: block;
+    opacity: 0.5;
+    width: auto;
+    cursor: pointer;
+}
+
+#fp-nav ul li a.active span,
+#fp-nav ul li:hover a.active span
+{
+    opacity: 1;
+    height: 4px;
+    width: 4px;
+    margin: -2px 0 0 -2px;
+    border-radius: 100%;
+ }
+
+ #fp-nav ul li .fp-tooltip.fp-right {
+    right: 50px;
+}
+
+#fp-nav ul li:last-child {
+    display: none;
+}
+
+#fp-nav {
+    transition: all 0.5s;
+    transition-delay: 0.25s;
+}
+body.last #fp-nav {
+    right:-200px;
+} */
+
+#fp-nav ul li:last-child {display: none;}
+#fp-nav ul li .fp-tooltip {
+    position: absolute;
+    top: 50%;
+    transform:translateY(-50%);
+    text-align: left;
+    min-width: 80px;
+    color: #fff;
+    font-size: 14px;
+    font-family: "Noto Sans KR";
+    white-space: nowrap;
+    max-width: 220px;
+    overflow: hidden;
+    display: block;
+    opacity: 0.5;
+    width: auto;
+    cursor: pointer;
+}
+
+#fp-nav ul li {
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    position:relative;
+}
+
+#fp-nav ul li a span{
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    height: 4px;
+    width: 4px;
+    border: 0;
+    background:white;
+    left: 50%;
+    top: 50%;
+    margin: -2px 0 0 -2px;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+#fp-nav ul li:hover a span{
+    width: 4px;
+    height: 4px;
+    margin: -2px 0px 0px -2px;
+}
+
+#fp-nav ul li a.active span{
+    height: 4px;
+    width: 4px;
+    margin: -2px 0 0 -2px;
+    border-radius: 100%;
+ }
+
+ #fp-nav ul li:hover a span{
+    width: 4px;
+    height: 4px;
+    margin: -2px 0px 0px -2px;
+}
+
+#fp-nav ul li .fp-tooltip.fp-right {
+    right: 50px;
+}
+
+#fp-nav ul li a:before{
+    content:'';
+    display: block;
+    position: absolute;
+    width:30px;
+    height:30px;
+    border:2px solid #fff;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%) scale(0);
+    border-radius: 100%;
+    transition: all 0.2s;
+}
+
+#fp-nav ul li a:after{
+    content:'';
+    display: block;
+    position: absolute;
+    width:200px;
+    height:30px;
+    top:50%;
+    right:0;
+    transform:translateY(-50%);
+}
+
+#fp-nav ul li a.active:before {
+    transform:translate(-50%, -50%) scale(1);
+}
+
+#fp-nav ul li a.active span,
+#fp-nav ul li:hover a.active span{
+    height: 4px;
+    width: 4px;
+    margin: -2px 0 0 -2px;
+    border-radius: 100%;
+ }
+
+ #fp-nav {transition:all 0.5s 0.5s ease-in-out;}
+
+ .fp-viewing-4 #fp-nav {
+     right:-200px;
+ }
