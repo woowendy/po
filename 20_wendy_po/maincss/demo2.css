@@ -1,0 +1,19 @@
+/* Reset Styles
+***********************/
+
+/* General
+***********************/
+.slider { margin: 50px 0 10px!important;}
+#carousel li {margin-right: 5px;}
+#carousel img {display: block; opacity: .5; cursor: pointer;}
+#carousel img:hover {opacity: 1;}
+#carousel .flex-active-slide img {opacity: 1; cursor: default;}
+
+/* Layout
+***********************/
+
+#main {margin:0 auto; margin-top: -25px;overflow: hidden;}
+.main1{width:80%;text-align:center;}
+
+.main1 a{color:gray;font:normal 12px "맑은 고딕";text-decoration: none;}
+.main1 a:hover{color:gray;text-decoration: underline;}
