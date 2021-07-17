@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>NELL</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+        <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>      
+    <![endif]-->
+    <!--[if lt IE 9]>
+        <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
+    <meta name="description" content="Full screen background video demo">
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo.ico">
+    <link rel="stylesheet" href="maincss/layout.css">
+    <link rel="stylesheet" href="common/css/common.css">
+    <link rel="stylesheet" href="maincss/style2.css">
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/js.cookie.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.1/gsap.min.js"></script> 
+    <script src="js/splitting.min.js"></script>
+    <script src="js/greensock/gsap.min.js"></script> 
+    <script src="js/main.js" defer></script>    
+</head>
+
+<body>
+    <div id="bgBox">
+        <video autoplay loop muted id="vidBg" src="video/NELL.mp4"></video> <img src="images/imgBg1.jpg" id="imgBg" alt="background image"> 
+    </div>
+
+    <div id="wrap">
+        <header id="header">
+            <div id="main_header">
+                <h1><a href="index.html"><img src="common/images/logo2.png" alt="homelogo" class="logo_pc"></a></h1>
+                <div id="main_nav">
+                    <nav>
+                        <ul class="gnb">
+                            <li><a href="#">HOME</a>
+                                <ul class="sub1">
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">History</a></li>
+                                </ul>
+                            </li>
+                            <li class="brand_t"><a href="#">ROOM</a>
+                                <ul class="sub2">
+                                    <li><a href="#">MUSIC</a></li>
+                                    <li><a href="#">INSTAGRAM</a></li>
+                                    <li><a href="#">LIVE</a></li>
+                                    <li><a href="#">NOTICE</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- main_nav e -->
+            </div>
+            <!-- main_header e -->
+            <div id="mo_header">
+
+                <div class="nav_wrapper">
+                    <!--<a class="menu-link" href="#menu"></a>-->
+                    <h2><img src="common/images/logo_m2.png" alt="" class="logo_mm"></h2>
+                    <div class="spinner-master">
+                        <input type="checkbox" id="spinner-form" />
+                        <label for="spinner-form" class="spinner-spin">
+                            <div class="spinner diagonal part-1"></div>
+                            <div class="spinner horizontal"></div>
+                            <div class="spinner diagonal part-2"></div>
+                        </label>
+                    </div>
+
+                    <div id="m_box">
+                        <ul id="ic_menu_list">
+                            <li><a href="html/about_us.html">HOME</a>
+                                <ul class="sub1">
+                                    <li><a href="#">ABOUT US</a></li>
+                                    <li><a href="#">HISTORY</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="html/chuck.html">ROOM</a>
+                                <ul class="sub2">
+                                    <li><a href="#">MUSIC</a></li>
+                                    <li><a href="#">INSTAGRAM</a></li>
+                                    <li><a href="#">LIVE</a></li>
+                                    <li><a href="#">NOTICE</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <article>
+            <h3 class="hidden">intro</h3>
+            <section id="chuck">
+                <div class="ch_txt1 slogan">
+                    <h3 class="main" data-splitting>
+                        OUR STORY
+                    </h3>
+                    <p class="sub" data-splitting>
+                        "영화 《넬》의 주인공은 오랜 시간 세상과 단절된 채 자신만의 언어를 사용하는 사람으로 나온다. 이는 '음악으로 대중과 소통하고 싶다'라는 우리의 뜻과 맞아떨어져서 밴드명으로 따왔다."
+                    </p>                   
+                </div> <!-- ch_txt1 e -->
+                <div class="ch_top1 chBox"> <img src="images/ch_nell_2.jpg" alt="">
+                    <p> LEE JAE KYUNG </p>
+                </div> <!-- ch_top1 e -->
+                <div class="ch_top2 chBox"> <img src="images/ch_nell_4.jpg" alt="">
+                    <p>JUNG JAE WON</p>
+                </div> <!-- ch_top2 e -->
+                <div class="ch_btm1 chBox"> <img src="images/ch_nell_3.jpg" alt="">
+                    <p>KIM JONG WAN</p>
+                </div> <!-- ch_btm1 e -->
+                <div class="ch_btm2 chBox"> <img src="images/ch_nell_5.jpg" alt="">
+                    <p>LEE JUNG HOON</p>
+                </div> <!-- ch_btm1 e -->
+                <div class="ch_txt2">
+                    <p class="section--green wow slideInLeft" data-wow-delay="0.1s">I'm losing control.It's been way too long.I'm losing control.It's been way too long.Stop fucking with my brain.Stop spitting on my pain.I'll burn you in flame
+                        Stop fucking with my brain.Stop spitting on my pain.I'll burn you in flame.I'm losing control</p>
+                    <p><input type="button" value="view more" class=" wow fadeInDown" data-wow-delay="0.4s"></p>
+                </div> <!-- ch_txt2 e -->
+                <ul class="ch_btm3">
+                    <li class="chBox"><img src="images/ch_nell_8.jpg" alt="">
+                        <p>NEWTON'S APPLE</p>
+                    </li>
+                    <li class="chBox"><img src="images/ch_nell_7.jpg" alt="">
+                        <p>HOLDING ONTO GRAVITY</p>
+                    </li>
+                    <li class="chBox"><img src="images/ch_nell_6.jpg" alt="">
+                        <p>청춘연가</p>
+                    </li>
+                </ul>
+            </section>
+            <!-- chuck e -->
+            <section id="tyler">
+                <div class="ty_txt">
+                    <h3 class=" wow fadeInDown" data-wow-delay="0.1s">NELL'S ROOM</h3>
+                    <p class=" wow fadeInDown" data-wow-delay="0.4s">Strange,I barely know you, but yet I feel deeply connected to you. Crave,I never had you, but yet I feel so lonely without you. Beautiful Stranger. Safe,I barely know you, but yet I feel secure when I'm with you. Strange, I don't even know you, but yet I feel so strong and bold when I'm with you Beautiful Stranger My Beautiful stranger</p>
+                    <p><input type="button" value="view more" class=" wow fadeInDown" data-wow-delay="0.7s"></p>
+                </div> <!-- ty_txt1 e -->
+            </section> <!-- tyler e -->
+
+            <section id="our_s">
+                <h3>NEWTON'S APPLE</h3>
+                <p>I know it took me quite a while I needed time to figure out why and how. It was like a roller coaster ride of never ending questions and it still is
+                    But there is one thing that I'm so damn sure of and that is you Yes, you
+                    I will fight for you No matter what it takes I'll fight for you. I will refuse to deny this love that is bursting inside
+                </p>
+                <p><input type="button" value="learn more"></p>
+            </section> <!-- our_s e -->
+        </article>
+
+        <ul id="sns_side">
+            <li><a href="https://ko-kr.facebook.com/OfficialSpacebohemian/"><img src="common/images/facebook.png" alt="facebook"></a></li>
+            <li><a href="https://twitter.com/nellband"><img src="common/images/twitter2.png" alt="twitter"></a></li>
+            <li><a href="https://www.instagram.com/spacebohemians/"><img src="common/images/instagram.png" alt="instagram"></a></li>
+            <li><a href="#header"><img src="common/images/top2.png" alt="go to the top"></a></li>
+        </ul>
+
+        <footer>
+            <ul class="sns">
+                <li><a href="https://ko-kr.facebook.com/OfficialSpacebohemian/"><img src="common/images/facebook.png" alt="facebook"></a></li>
+                <li><a href="https://twitter.com/nellband"><img src="common/images/twitter2.png" alt="twitter"></a></li>
+                <li><a href="https://www.instagram.com/spacebohemians/"><img src="common/images/instagram.png" alt="instagram"></a></li>
+                <li><a href="#header"><img src="common/images/top2.png" alt="go to the top"></a></li>
+            </ul>
+            <ul class="terms">
+                <li><a href="http://www.spacebohemian.com">OFFICIAL</a></li>
+                <li><a href="#">+82) 02. 449. 9722</a></li>
+                <li><a href="#">SEOUL, CITY, KOREA</a></li>
+            </ul>
+            <p>ⓒ 2017 SPACEBOHEMIAN. ALL RIGHTS RESERVED.</p>
+        </footer>
+        <aside id="popup">
+            <div class="contents">
+               <img src="images/popup1.png" alt="popup">
+            </div>
+            <div class="btns">
+                <button class="btnOneday">오늘 하루 이창을 열지 않기</button>
+                <button class="btnClose">
+                    닫기
+                </button>
+            </div>
+        </aside>
+        <div class="cover"></div>
+    </div>
+    <!-- wrap e -->
+    <!-- call back -->
+    <script src="js/wow.js"></script>
+    <script>
+        wow = new WOW({
+            animateClass: 'animated',
+            offset: 100
+        });
+        wow.init();
+    </script>
+</body>
+
+</html>
